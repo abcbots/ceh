@@ -1,6 +1,16 @@
 # CEH
 
-##The MIT License
+## Clone this code
+
+* [find and open terminal]
+* $ git clone https://github.com/davemake/ceh.git
+* $ cd ceh
+* [improve code]
+* $ git add --all .
+* $ git commit -m "add something; add something else"
+* [push changes] https://help.github.com/articles/creating-a-pull-request/
+
+## The MIT License
 
 SPDX short identifier: MIT
 
