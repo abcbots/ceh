@@ -5,9 +5,10 @@
 * [find and open terminal]
 * $ git clone https://github.com/davemake/ceh.git
 * $ cd ceh
+* $ sudo npm install
 * [improve code]
 * $ git add --all .
-* $ git commit -m "add something; add something else"
+* $ git commit -m "memo; another memo"
 * [push changes] https://help.github.com/articles/creating-a-pull-request/
 
 ## The MIT License
