@@ -1,17 +1,25 @@
 <ion-header>
         <ion-navbar>
-                <button ion-button menuToggle>
-                        <ion-icon name="menu"></ion-icon>
-                </button>
+                <button ion-button menuToggle><ion-icon name="menu"></ion-icon></button>
                 <ion-title>Page One</ion-title>
         </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+	<ion-item>
+		<ion-label fixed>RollNo</ion-label>
+		<ion-input [(ngModel)]="rollNo" type="text" value="{{rollNo}}"></ion-input>
+	</ion-item>
+	<ion-item>
+		<ion-label fixed>Name</ion-label>
+		<ion-input [(ngModel)]="name" type="text" value="{{name}}"></ion-input>
+	</ion-item>
+	<ion-item>
+		<ion-label fixed>Date</ion-label>
+		<ion-input [(ngModel)]="date" type="date" value="{{date}}"></ion-input>
+	</ion-item>
+	<button ion-button (click)="get()">get</button>
 	<button ion-button (click)="add()">add</button>
-	<ion-list>
-		<ion-item *ngFor="let image of images">
-			<ion-img src="image"></ion-img>
-		</ion-item>
-	</ion-list>
+	<button ion-button (click)="update()">update</button>
+	<button ion-button (click)="remove()">remove</button>
 </ion-content>
